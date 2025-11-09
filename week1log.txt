@@ -1,1 +1,9 @@
-- Week 1: Nov 3–9, 2025
+Week 1 Project Log
+Date: 11/09/2025 
+
+1. Framework Selection:
+After reviewing recent research comparing TensorFlow and PyTorch, I have chosen to use PyTorch for my Generated Content Detector project due to its notable strengths in flexibility, ease of use, and rapid prototyping, which are crucial for experimenting with different model architectures during the initial development phase. PyTorch's dynamic computation graph simplifies debugging and iterative testing, making it particularly suitable for research-heavy tasks at this stage. This choice is reinforced by the findings in the paper "A Comparative Survey of PyTorch vs TensorFlow for Deep Learning: Usability, Performance, and Deployment Trade-offs". (link: https://www.arxiv.org/pdf/2508.04035)
+
+2. Dataset & Topic Selection:
+For my project, I am focusing on developing a system to distinguish between real faces and AI-generated faces. I chose faces as the primary dataset because they are widely used in various applications and are a common target for synthetic content creation. Using facial images allows me to leverage existing large-scale datasets and develop models that can accurately detect authenticity, addressing an important need for verifying visual content in an era where AI-generated faces are becoming increasingly realistic and prevalent.
+Reference: Facing reality? Law enforcement and the challenge of deepfakes. (link: https://www.europol.europa.eu/cms/sites/default/files/documents/Europol_Innovation_Lab_Facing_Reality_Law_Enforcement_And_The_Challenge_Of_Deepfakes.pdf)
