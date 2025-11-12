@@ -1,1 +1,4 @@
+Week 1 Project Log
+Date: 11/16/2025 
 
+Download dataset from Kaggle and upload into Google Colab and unzip files
