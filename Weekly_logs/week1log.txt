@@ -2,22 +2,27 @@ WEEK 1 LOG
 Date: 11/09/2025 
 
 Framework Selection:
-- Researched popular deep learning frameworks, compared TensorFlow and PyTorch.
+- Investigated popular deep learning frameworks, comparing TensorFlow and PyTorch.
 - Chose PyTorch for its flexibility, ease of prototyping, and dynamic computation graph that simplifies debugging.
 
 Project Scope & Focus:
 - Defined the main goal: to develop a system that differentiates between real faces and AI-generated faces.
-- Chose facial images because they are highly relevant and widely used in synthetic media detection.
-- Aimed to address challenges like model generalization across different generative models, and robustness against image distortions such as compression, noise, and blurring.
+- Focused on facial imagery due to its relevance in synthetic media detection and widespread availability.
+- Identified key challenges, including generalization across different generative models and robustness to image distortions such as compression, noise, and blurring.
 
 Dataset Acquisition & Initial Handling:  
 - Downloaded a relevant dataset from Kaggle containing real and AI-generated face images.
 - Uploaded the dataset to Google Colab and unzipped the files for preliminary inspection.
-- Began exploring the dataset, reviewing the image quality, class distribution, and potential biases.
-- Planned to create dataset loaders and preprocessing pipelines in the coming week.
+- Began exploring the dataset to assess image quality, class balance, and potential biases.
+- Planning to develop data loaders and preprocessing pipelines in the upcoming week.
+
+Initial Literature & Dataset Research:
+- Reviewed recent research papers and surveys on deepfake detection and AI-generated image classification.
+- Examined features and models commonly used in state-of-the-art approaches, such as CNN-based classifiers, frequency domain features, and classical image features.
+- Identified potential baseline methods for future comparison.
 
 Next Steps for Week 2:   
 - Implement a data loader to efficiently load, shuffle, and preprocess images during training.
-- Design and test a simple baseline classifier (e.g., CNN or classical feature-based model).
-- Visualize the dataset to confirm class labels and evaluate data quality.
+- Develop and evaluate a simple baseline classifier, such as a CNN or a classical feature-based model.
+- Visualize sample images and class distribution to validate dataset quality.
 - Begin preliminary feature extraction and model training, aiming to establish a baseline accuracy.
