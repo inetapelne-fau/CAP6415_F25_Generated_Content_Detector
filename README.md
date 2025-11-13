@@ -1,2 +1,2 @@
-# CAP6415_F25_Generated_Content_Detector
-## Develop and implement an algorithm capable of detecting AI generated images. Use some of the principles mentioned in lectures and add more methods – resulting in a reliable system (ideally, can detect with > 80% accuracy AI generated images).
+# Face Photo Generator Content Detector: Real vs AI-Generated Faces
+## This project focuses on developing a computer vision system that can accurately differentiate between real face photos and AI-generated faces. Using deep learning techniques, the system aims to classify facial images with high accuracy and robustness. The work involves dataset collection, image preprocessing, model training, and evaluating performance under various distortions, contributing to the understanding and application of face recognition and fake image detection in computer vision.
