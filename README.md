@@ -27,6 +27,7 @@ This architecture is specifically designed to efficiently process and classify f
 ## ⚙️ Technologies Used
 - **Python**: The primary programming language for implementing the project.
 - **PyTorch**: The deep learning framework utilized for building and training the model.
+- **OpenCV**: For image processing tasks.
 
  
 ## 📈 Results
