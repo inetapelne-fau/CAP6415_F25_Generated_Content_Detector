@@ -14,17 +14,15 @@ The project leverages a diverse dataset that includes both real and AI-generated
 ### Randomly Selected Images and Corresponding Model Classifications
 <img width="560" height="312" alt="Screenshot 2025-11-21 at 5 12 32 AM" src="https://github.com/user-attachments/assets/4b17fc19-f0c7-48b7-b47d-8e5abe8ee43b" />
 
+## 🏗️ Model Architecture Summary
+Below is the architecture of the convolutional neural network (CNN) used in this project. It details the layer types, output shapes, and parameter counts, providing insights into the model's complexity and memory usage. This architecture is designed to effectively process and classify facial images.
 
+<img width="573" height="348" alt="Screenshot 2025-11-22 at 11 42 40 AM" src="https://github.com/user-attachments/assets/f0d1e200-97fd-471f-9f7c-0b65f4686c76" />
 
 
 ## ⚙️ Technologies Used
-- Languages: Python
-- Libraries:
-  - TensorFlow for deep learning
-  - NumPy and Pandas for data manipulation
-  - Matplotlib for visualization
-- Tools: 
-  - Jupyter Notebooks for experimentation
-  - Git for version control
+- **Python**: The primary programming language for implementing the project.
+- **PyTorch**: The deep learning framework utilized for building and training the model.
+
  
 ## 📈 Results
