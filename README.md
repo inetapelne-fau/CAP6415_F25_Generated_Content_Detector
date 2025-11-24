@@ -14,8 +14,9 @@ The project leverages a diverse dataset that includes both real and AI-generated
 ### Randomly Selected Images and Corresponding Model Classifications
 <img width="560" height="312" alt="Screenshot 2025-11-21 at 5 12 32 AM" src="https://github.com/user-attachments/assets/4b17fc19-f0c7-48b7-b47d-8e5abe8ee43b" />
 
+
+# First Model: Pytorch Convolutional Neural Network (CNN)
 ## 🏗️ Model Architecture Summary
-Below is the architecture of the convolutional neural network (CNN) used in this project. It includes:
 - **Layer Types**: Various layers such as convolutional (Conv2d) and pooling (MaxPool2d) layers, which extract features from the input images.
 - **Output Shapes**: The shape of data after each layer, demonstrating how the input size is transformed through the network.
 - **Parameter Counts**: The number of parameters for each layer, highlighting the model's complexity and capacity for learning.
