@@ -1,2 +1,11 @@
 WEEK 3 LOG
 Date: 11/23/2025 
+
+Implementation of Early Stopping in the current PyTorch CNN model:
+- Introduced early stopping based on validation loss to mitigate overfitting caused by high variance.
+- This technique allows the model to terminate training when performance on the validation set starts to degrade, preventing excessive fitting to the training data.
+
+Impact on Model Performance:
+- The implementation of early stopping has significantly improved the model's performance on unseen data from the outside dataset.
+- The model still maintains an impressive 97% overall performance accuracy while achieving 89% accuracy on the outside dataset.
+- This demonstrates a successful balance between model generalization and retention of high accuracy across different datasets.
