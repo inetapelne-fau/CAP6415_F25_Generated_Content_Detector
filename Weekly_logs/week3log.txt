@@ -4,8 +4,19 @@ Date: 11/23/2025
 Implementation of Early Stopping in the current PyTorch CNN model:
 - Introduced early stopping based on validation loss to mitigate overfitting caused by high variance.
 - This technique allows the model to terminate training when performance on the validation set starts to degrade, preventing excessive fitting to the training data.
+- The implementation reduced training time from 1 hour and 15 minutes to under 30 minutes. Furthermore, prior to optimizing with a more powerful GPU, training duration exceeded 5 hours.
 
 Impact on Model Performance:
 - The implementation of early stopping has significantly improved the model's performance on unseen data from the outside dataset.
 - The model still maintains an impressive 97% overall performance accuracy while achieving 89% accuracy on the outside dataset.
 - This demonstrates a successful balance between model generalization and retention of high accuracy across different datasets.
+
+Created Confusion Matrix:
+- Correct Classifications: 965 instances of the "AI" class and 969 instances of the "real" class were accurately identified.
+- Misclassifications: 36 "real" images were misclassified as "AI"; 32 "AI" images were misclassified as "real."
+- Overall Performance: Indicates some confusion between the two categories despite strong accuracy.
+
+Improvement Strategies: 
+- Model Architecture: Utilize ResNet to leverage its depth and skip connections for better feature extraction.
+- Fine-Tuning: Fine-tune the final layer of the model to adapt to the specific dataset and improve classification accuracy.
+- Regularization: Incorporate a dropout layer to reduce overfitting and enhance model generalization.
