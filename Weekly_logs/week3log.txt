@@ -17,6 +17,16 @@ Created Confusion Matrix:
 - Overall Performance: Indicates some confusion between the two categories despite strong accuracy.
 
 Improvement Strategies: 
-- Model Architecture: Utilize ResNet to leverage its depth and skip connections for better feature extraction.
-- Fine-Tuning: Fine-tune the final layer of the model to adapt to the specific dataset and improve classification accuracy.
-- Regularization: Incorporate a dropout layer to reduce overfitting and enhance model generalization.
+- Model Architecture: Utilize ResNet to leverage its depth and skip connections for improved feature extraction and performance.
+- Fine-Tuning: Fine-tune the final layer of the model to adapt specifically to the dataset, enhancing classification accuracy.
+- Regularization: Incorporate a dropout layer to minimize overfitting, thus improving model generalization.
+- Model Simplification: Consider creating a simpler model with fewer layers to reduce complexity and computational load, which can facilitate faster training and potentially improve generalization.
+- Classifier Addition: Introduce an additional classifier to improve decision-making capabilities, enhancing the model's overall classification performance.
+
+Working on Code Reproducibility:
+- Dataset Management: Currently importing a 1.1 GB photo dataset to GitHub to ensure easy access and version control for future reference.
+- Smooth Execution: Ensuring that the code runs smoothly for the teaching assistant who will execute it. This includes thorough documentation and streamlined dependencies to facilitate setup and usage.
+
+Exploring New Model Options:
+- Model Experimentation: Actively exploring new models to enhance performance and discover innovative approaches to problem-solving.
+- Transfer Learning Consideration: Considering transfer learning due to its ability to leverage pre-trained models, which can significantly reduce training time and improve accuracy, especially when working with limited datasets. This approach allows for the application of learned features from large datasets to specific tasks, enhancing model robustness.
