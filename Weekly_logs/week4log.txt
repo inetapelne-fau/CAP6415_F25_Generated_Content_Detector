@@ -1,2 +1,17 @@
 WEEK 4 LOG
 Date: 11/30/2025 
+
+Exploration of PyTorch Deep Learning Resources:
+- Reviewed the GitHub repository “PyTorch Deep Learning” by Matthew Bourke.
+- Discovered a variety of tutorials and projects focused on the PyTorch framework.
+- Gained valuable insights into deep learning concepts through practical examples.
+- Found well-structured code snippets that enhanced my understanding of neural networks.
+- Soure:Bourke, M. (n.d.). PyTorch deep learning. GitHub. https://github.com/mrdbourke/pytorch-deep-learning 
+
+Implementation of EfficientNet-B0 for Enhanced Comparative Analysis in Face Content Detection
+- Model Overview: I implemented EfficientNet-B0, utilizing transfer learning techniques to enhance model performance.
+- Efficiency: EfficientNet models are engineered to achieve high accuracy while utilizing fewer parameters and lower computational resources, making them ideal for deployment in resource-constrained environments.
+- High Performance: EfficientNet-B0 has shown strong effectiveness across various image classification tasks, which is advantageous for accurately identifying face-generated content.
+- Transfer Learning: By leveraging pretrained weights, the model enables quicker training and improved accuracy, allowing it to benefit from features learned across diverse datasets.
+- Scalability: The scalable architecture of EfficientNet allows for future upgrades to larger models as project demands grow.
+- Robustness: Designed for versatility, this architecture generalizes well across a range of image styles, which is crucial for detecting variations in generated content.
