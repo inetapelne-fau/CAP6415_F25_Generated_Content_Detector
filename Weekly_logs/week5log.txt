@@ -1,3 +1,24 @@
 WEEK  LOG
 Date: 12/7/2025 
 
+Implementation of Statistical Models
+
+Textbook and Resource Review: 
+- Examined our textbook and slides to understand the concepts and methodologies for implementing statistical models.
+
+Statistical Feature Extraction: 
+- Extracted various statistical features from the images, including:
+  * Fourier Transforms: Analyzed frequency components.
+  * Gradients: Captured edge information and changes in intensity.
+  * Patch-Based Variance Statistics: Evaluated local image variations to identify textures.
+  * Gaussian Blur Residual Statistics: Assessed residuals post-blurring to highlight significant features.
+
+Application of Traditional ML Models: 
+- Applied traditional machine learning models to the extracted statistical features.
+- Evaluated model performance to identify the best methods for analyzing and interpreting image data.
+
+README File Development: 
+- Worked on the README file to document the project details, methodologies, and instructions for future users.
+
+Video Presentation Creation: 
+- Created a video presentation to showcase the statistical model implementation and findings.
