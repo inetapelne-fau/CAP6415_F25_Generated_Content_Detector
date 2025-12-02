@@ -3,15 +3,14 @@ Date: 11/30/2025
 
 Exploration of PyTorch Deep Learning Resources:
 - Reviewed the GitHub repository “PyTorch Deep Learning” by Matthew Bourke.
-- Discovered a variety of tutorials and projects focused on the PyTorch framework.
 - Gained valuable insights into deep learning concepts through practical examples.
-- Found well-structured code snippets that enhanced my understanding of neural networks.
-- Soure:Bourke, M. (n.d.). PyTorch deep learning. GitHub. https://github.com/mrdbourke/pytorch-deep-learning 
+- Source: https://github.com/mrdbourke/pytorch-deep-learning 
 
-Implementation of EfficientNet-B0 for Enhanced Comparative Analysis in Face Content Detection
-- Model Overview: I implemented EfficientNet-B0, utilizing transfer learning techniques to enhance model performance.
-- Efficiency: EfficientNet models are engineered to achieve high accuracy while utilizing fewer parameters and lower computational resources, making them ideal for deployment in resource-constrained environments.
-- High Performance: EfficientNet-B0 has shown strong effectiveness across various image classification tasks, which is advantageous for accurately identifying face-generated content.
-- Transfer Learning: By leveraging pretrained weights, the model enables quicker training and improved accuracy, allowing it to benefit from features learned across diverse datasets.
-- Scalability: The scalable architecture of EfficientNet allows for future upgrades to larger models as project demands grow.
-- Robustness: Designed for versatility, this architecture generalizes well across a range of image styles, which is crucial for detecting variations in generated content.
+
+Implementation of EfficientNet, ResNet, and VisionTransformer for Enhanced Comparative Analysis in Face Content Detection:
+- Model Overview: I implemented EfficientNet, ResNet, and VisionTransformer (ViT) to leverage their unique strengths in enhancing model performance.
+- EfficientNet: This model was chosen for its high accuracy and efficiency, utilizing fewer parameters and lower computational resources. Its architecture is ideal for deployment in resource-constrained environments, enabling effective detection of face-generated content.
+- ResNet: Selected for its powerful residual learning framework, ResNet facilitates the training of very deep networks. Its ability to mitigate issues like vanishing gradients makes it suitable for capturing complex patterns in face images, enhancing overall performance.
+- VisionTransformer (ViT): I opted for ViT due to its innovative attention mechanism, which allows the model to focus on important parts of the input images. This is particularly beneficial for distinguishing subtle differences in face content.
+- Comparative Analysis: I ran all three models simultaneously, comparing their performance metrics to identify the most effective approach. The results have been documented in a GitHub repository for analysis.
+- Transfer Learning: By leveraging pretrained weights across these models, I achieved quicker training times and improved accuracy, benefiting from features learned on diverse datasets.
