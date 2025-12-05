@@ -21,4 +21,4 @@ README File Development:
 - Worked on the README file to document the project details, methodologies, and instructions for future users.
 
 Video Presentation Creation: 
-- Created a video presentation to showcase the statistical model implementation and findings.
+- Created a video presentation to showcase the statistical model implementation and findings. 
