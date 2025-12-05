@@ -13,8 +13,8 @@ This project focuses on developing a robust content detection system that accura
 
 By addressing these challenges, this project aims to contribute to a more transparent and trustworthy digital landscape, empowering individuals and organizations to navigate the complexities of AI-generated content responsibly.
 
-## 📂 Dataset
-The project leverages a diverse dataset that includes both real and AI-generated face images sourced from multiple Kaggle datasets. By carefully mixing and matching four distinct sources, the final dataset comprises 5,000 real images and 5,000 AI-generated images, organized into training, testing, and validation sets. This enhanced diversity has led to improved model performance, demonstrating the positive impact of having a varied dataset on classification accuracy.
+## 📂 Dataset Description
+The project utilizes a carefully curated and diverse dataset that features both real and AI-generated face images, sourced from multiple Kaggle datasets. By strategically combining four distinct sources, the final dataset consists of 5,000 authentic images and 5,000 AI-generated images, systematically organized into training, testing, and validation sets. This thoughtful approach to dataset creation enhances diversity, which has been instrumental in improving model performance. The varied representations of facial features, expressions, and backgrounds within the dataset have significantly contributed to increased classification accuracy, highlighting the importance of a rich and varied dataset in training effective machine learning models.
 
 ### Sources:
   - [Real vs AI Generated Faces Dataset](https://www.kaggle.com/datasets/philosopher0808/real-vs-ai-generated-faces-dataset) 
