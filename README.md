@@ -58,6 +58,16 @@ This project employs three distinct approaches to develop the content detection 
 - **Benefits:** The statistical model provides a complementary perspective to deep learning approaches, offering insights into the underlying features that contribute to classification. It also serves as a baseline for evaluating the performance of more complex models.
 
 
+
+# 📈 Model Evaluation
+Each model exhibits strong performance, achieving high accuracy on both validation and testing datasets. The classification reports reveal excellent F1-Scores for both AI-generated and real images, underscoring the effectiveness of all models in tackling the classification task. Overall, they all excel in distinguishing between AI-generated and real images.
+
+<img width="686" height="376" alt="Model_performance_comparison" src="https://github.com/user-attachments/assets/35b5859a-879a-49b0-b509-96852735035e" />
+
+
+
+<img width="1478" height="591" alt="Screenshot 2025-12-03 at 10 46 24 AM" src="https://github.com/user-attachments/assets/ff1e32fd-6891-4a26-9277-e02fb944af91" />
+
+
 ## 🏗️  
 ## ⚙️ 
-## 📈 Results
