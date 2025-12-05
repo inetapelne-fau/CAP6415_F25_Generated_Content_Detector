@@ -7,7 +7,7 @@ All models are designed to run smoothly using the provided code within the Pytho
 ## 🚀 Running the Models
 
 - **Environment Setup:** I recommend using Google Colab for running the code. It provides free access to GPUs, which will significantly speed up the training process.
-- **Required Libraries:** Make sure to have the following libraries installed in your environment:
+- **Required Libraries:** Google Colab comes pre-installed with the following libraries, eliminating the need for any additional installation steps. If you're using a different environment, please ensure that you have the following libraries installed:
    - PyTorch and TorchVision for deep learning models.
    - Matplotlib and Seaborn for visualization.
    - NumPy and Pandas for data manipulation.
