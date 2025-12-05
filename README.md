@@ -100,3 +100,13 @@ In this project, I employed a diverse set of models—including Custom CNN, ResN
 
 In conclusion, while the initial results are encouraging, addressing the limitations posed by the dataset's size and diversity is essential. By implementing robust validation techniques and enhancing the dataset, I aim to develop models that perform effectively in real-world applications. 🌍
 
+# 📝 Cited Works and Code Contributions
+- **Model A:** PyTorch Documentation:
+PyTorch. TensorBoard tutorial. Retrieved from https://docs.pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
+
+- **Model B:** GitHub Repository:
+Bourke, M. PyTorch deep learning. GitHub repository. Retrieved from https://github.com/mrdbourke/pytorch-deep-learning
+
+- **Model C:** Scikit-learn Documentation
+Scikit-learn. Scikit-learn: Machine learning in Python. Retrieved from https://scikit-learn.org/stable/index.html
+
