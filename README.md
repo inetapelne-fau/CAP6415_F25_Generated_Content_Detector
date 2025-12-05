@@ -74,3 +74,7 @@ Note that statistical models lack learning curves because they estimate paramete
 
 
 # 🔍 Comparison of the three approaches
+- **Execution Time:** Time taken for execution canvary significantly; however, it is challenging to determine precise execution times as I utilize a shared GPU on Google Colab. In this context, machine learning models may take longer due to GPU processing, while Model 3 (the statistical image model) does not require a GPU, making it inherently faster to execute.
+- **Applicability in Real-World Situations:**   
+   - Machine learning models often excel in handling complex datasets and can adapt to various scenarios, making them suitable for diverse applications. However, their dependency on substantial computational resources may limit accessibility.
+   - In contrast, the statistical image model is simpler and more interpretable, making it easier to implement in real-world situations where speed and resource constraints are critical, especially since it does not require GPU resources.
