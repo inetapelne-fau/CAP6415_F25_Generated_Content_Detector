@@ -22,3 +22,4 @@ README File Development:
 
 Video Presentation Creation: 
 - Created a video presentation to showcase the statistical model implementation and findings. 
+
