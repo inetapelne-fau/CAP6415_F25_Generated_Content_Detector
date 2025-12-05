@@ -49,11 +49,11 @@ This project employs three distinct approaches to develop the content detection 
 - **Benefits:** By incorporating transfer learning across these diverse architectures, this model accelerates training and enhances performance, particularly when working with smaller datasets. It capitalizes on the strengths of proven architectures, allowing for robust feature extraction and improved generalization capabilities while adapting them to our unique requirements.
 
 
-## 3. **Statistical Model**
+## 3. **Model C: Statistical Model**
 
 - **Description:** This approach utilizes traditional machine learning models to analyze statistical features extracted from the images. Key characteristics such as pixel intensity distributions, texture, and edge structures are examined to create a model that effectively distinguishes between real and AI-generated faces.
 
-- **Initialization:** This approach involves several key steps to prepare for analysis. This includes extracting relevant statistical features from images, such as Fourier features and gradient statistics, to create a robust dataset. Parameters for the chosen model, like hyperparameters in Random Forest or Gradient Boosting, must be set up, and training data should be properly prepared by splitting, normalizing, and addressing any imbalances. Additionally, establishing a random seed can enhance reproducibility. Proper initialization is crucial for ensuring that the model effectively captures the underlying patterns in the data.
+- **Preparation & Initialization:** Key steps for preparing and initializing the statistical models include extracting relevant statistical features from images, such as Fourier features and gradient statistics, to create a robust dataset. The training data is properly prepared by splitting, normalizing, and addressing any imbalances. Hyperparameters for the chosen models, such as those in Random Forest or Gradient Boosting, are set for optimal performance. Additionally, establishing a random seed can enhance reproducibility. Proper initialization is crucial for ensuring that the models effectively capture the underlying patterns in the data.
 
 - **Benefits:** The statistical model provides a complementary perspective to deep learning approaches, offering insights into the underlying features that contribute to classification. It also serves as a baseline for evaluating the performance of more complex models.
 
