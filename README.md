@@ -1,5 +1,5 @@
 # AI Face Detection: Navigating the Challenges of Real and Synthetic Images
-## 📚 Project Description
+# 📚 Project Description
 This project focuses on developing a robust content detection system that accurately distinguishes between real human faces and AI-generated images. As AI technologies continue to advance rapidly, creating highly realistic visuals, the potential for misuse increases, raising significant concerns about misinformation, privacy, and trust in digital media.
 
 **Goal**: The primary goal of this project is to create a reliable tool that can effectively identify the authenticity of facial images. By doing so, we aim to protect individuals and society from the negative consequences of manipulated visuals, such as identity theft, deepfake videos, and the spread of false information.
@@ -13,34 +13,51 @@ This project focuses on developing a robust content detection system that accura
 
 By addressing these challenges, this project aims to contribute to a more transparent and trustworthy digital landscape, empowering individuals and organizations to navigate the complexities of AI-generated content responsibly.
 
-## 📂 Dataset Description
+# 📂 Dataset Description
 The project utilizes a carefully curated and diverse dataset that features both real and AI-generated face images, sourced from multiple Kaggle datasets. By strategically combining four distinct sources, the final dataset consists of 5,000 authentic images and 5,000 AI-generated images, systematically organized into training, testing, and validation sets. This thoughtful approach to dataset creation enhances diversity, which has been instrumental in improving model performance. The varied representations of facial features, expressions, and backgrounds within the dataset have significantly contributed to increased classification accuracy, highlighting the importance of a rich and varied dataset in training effective machine learning models.
 
-### Sources:
+#### Sources:
   - [Real vs AI Generated Faces Dataset](https://www.kaggle.com/datasets/philosopher0808/real-vs-ai-generated-faces-dataset) 
   - [Detect AI-Generated Faces: High-Quality Dataset](https://www.kaggle.com/datasets/shahzaibshazoo/detect-ai-generated-faces-high-quality-dataset) 
   - [AI Diverse Portraits](https://www.kaggle.com/datasets/youssefismail20/ai-male-and-female?select=AI+%28Males+%26+Females%29) 
   - [Stable Diffusion Face Dataset](https://www.kaggle.com/datasets/mohannadaymansalah/stable-diffusion-dataaaaaaaaa/data)
 
-### Randomly Selected Images and Corresponding Model Classifications
+#### Randomly Selected Images and Corresponding Model Classifications
 <img width="560" height="312" alt="Screenshot 2025-11-21 at 5 12 32 AM" src="https://github.com/user-attachments/assets/4b17fc19-f0c7-48b7-b47d-8e5abe8ee43b" />
 
+# 🛠️ Approaches
+This project employs three distinct approaches to develop the content detection system for differentiating between real human faces and AI-generated images:
 
-## 🏗️  Pytorch Convolutional Neural Network (CNN) Model Architecture 
-- **Layer Types**: Various layers such as convolutional (Conv2d) and pooling (MaxPool2d) layers, which extract features from the input images.
-- **Output Shapes**: The shape of data after each layer, demonstrating how the input size is transformed through the network.
-- **Parameter Counts**: The number of parameters for each layer, highlighting the model's complexity and capacity for learning.
-This architecture is specifically designed to efficiently process and classify facial images, enabling effective differentiation between real and AI-generated faces. The combination of multiple layers allows the model to capture intricate patterns and representations in the data.
+## 1. **Model A: Custom CNN Architecture**
 
-<img width="573" height="348" alt="Screenshot 2025-11-22 at 11 42 40 AM" src="https://github.com/user-attachments/assets/f0d1e200-97fd-471f-9f7c-0b65f4686c76" />
+- **Description:** Model A is designed using a custom Convolutional Neural Network (CNN) architecture tailored specifically for classifying images as either AI-generated or real. The network consists of two convolutional layers with ReLU activation functions followed by max pooling layers, enabling it to effectively extract visual features from the input images. The fully connected layers at the end transform the feature maps into class predictions for binary classification. 
 
+- **Initialization:** In this model, all layers are initialized from scratch, which allows for a focused learning process tailored to the specific dataset. The architecture employs standard initialization techniques for convolutional and fully connected layers, which helps in achieving stable training.
 
-## ⚙️ Technologies Used
-- **Python**: The primary programming language for implementing the project.
-- **Google Colab**: Used for accessing GPU resources to significantly accelerate model training.
-- **PyTorch**: The deep learning framework utilized for building and training the model.
-- **Libraries**: Torch, NumPy, Matplotlib, PIL (Pillow)
+- **Benefits:** The tailored architecture and training strategy enable Model A to effectively learn the distinguishing features between AI-generated and real images, resulting in high accuracy and strong generalization capabilities without signs of overfitting.
 
 
- 
+## 2. **Model B: Transfer Learning**
+
+- **Description:** This model utilizes a combination of advanced architectures, including *ResNet, EfficientNet, and Vision Transformer (ViT)*, to enhance performance in classifying AI-generated versus real images. Each model is chosen for its unique strengths: 
+   - **ResNet** effectively addresses vanishing gradient issues through its skip connections, facilitating the training of deeper networks.
+   - **EfficientNet** optimizes model size and accuracy through a compound scaling method, allowing for better performance with fewer resources.
+   - **Vision Transformer (ViT)** excels in capturing long-range dependencies in image data by processing images as sequences of patches, leveraging self-attention mechanisms.
+
+- **Initialization:** This model employs a similar CNN architecture to Model A, but adopts a distinct initialization strategy. Specifically, some layers are initialized with weights from pre-trained models, while others are randomly initialized. This technique involves freezing select layers from the pre-trained models, enabling the model to leverage established knowledge while effectively adapting to our specific task.
+
+- **Benefits:** By incorporating transfer learning across these diverse architectures, this model accelerates training and enhances performance, particularly when working with smaller datasets. It capitalizes on the strengths of proven architectures, allowing for robust feature extraction and improved generalization capabilities while adapting them to our unique requirements.
+
+
+## 3. **Statistical Model**
+
+- **Description:** This approach utilizes traditional machine learning models to analyze statistical features extracted from the images. Key characteristics such as pixel intensity distributions, texture, and edge structures are examined to create a model that effectively distinguishes between real and AI-generated faces.
+
+- **Initialization:** This approach involves several key steps to prepare for analysis. This includes extracting relevant statistical features from images, such as Fourier features and gradient statistics, to create a robust dataset. Parameters for the chosen model, like hyperparameters in Random Forest or Gradient Boosting, must be set up, and training data should be properly prepared by splitting, normalizing, and addressing any imbalances. Additionally, establishing a random seed can enhance reproducibility. Proper initialization is crucial for ensuring that the model effectively captures the underlying patterns in the data.
+
+- **Benefits:** The statistical model provides a complementary perspective to deep learning approaches, offering insights into the underlying features that contribute to classification. It also serves as a baseline for evaluating the performance of more complex models.
+
+
+## 🏗️  
+## ⚙️ 
 ## 📈 Results
