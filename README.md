@@ -64,10 +64,13 @@ Each model exhibits strong performance, achieving high accuracy on both validati
 
 <img width="686" height="376" alt="Model_performance_comparison" src="https://github.com/user-attachments/assets/35b5859a-879a-49b0-b509-96852735035e" />
 
+### Comparison of Learning Curves
+In the folder *'results'*, you will find the learning curves for four models: PyTorch CNN, EfficientNet, ResNet, and Vision Transformer. Each model demonstrates strong learning capabilities and high accuracy in classifying AI-generated versus real images. EfficientNet and ResNet excel in generalization with minimal signs of overfitting, while the Vision Transformer shows potential but may benefit from further tuning to enhance test accuracy stability. Overall, these results highlight the effectiveness of different architectures in tackling the classification task, providing valuable insights for future model selection and refinement.
 
+Note that statistical models lack learning curves because they estimate parameters directly from the entire dataset rather than through iterative training. They produce a single set of results without multiple epochs, focusing more on interpretability and relationships between variables than on continuous performance tracking.
 
+### Visualization of Predictions
 <img width="1478" height="591" alt="Screenshot 2025-12-03 at 10 46 24 AM" src="https://github.com/user-attachments/assets/ff1e32fd-6891-4a26-9277-e02fb944af91" />
 
 
-## 🏗️  
-## ⚙️ 
+# 🔍 Comparison of the three approaches
